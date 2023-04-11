@@ -23,7 +23,7 @@ public class TriggerDetection : MonoBehaviour
             Debug.Log("Wowsers");
         } else {
             Debug.Log("You are not the player, get out");
-            collision.gameObject.GetComponent<Rigidbody>().AddForce(collision.gameObject.transform.up * 100);
+            collision.gameObject.GetComponent<Rigidbody>().AddForce(collision.gameObject.transform.up * 10);
         }
         
     }

@@ -21,8 +21,8 @@ public class TriggerScript : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             print ("BRUH MOMENT");
-             //other.gameObject.GetComponent<Rigidbody>().AddForce(other.gameObject.transform.up * 100);
-             other.gameObject.GetComponent<CharacterController>().Move(new Vector3(0,200,0));
+             //other.gameObject.GetComponent<Rigidbody>().AddForce(other.gameObject.transform.up * 10);
+             other.gameObject.GetComponent<CharacterController>().Move(new Vector3(0,1,0));
         }
 
         //dont forget using unityscenes scenemanager etc etc 
